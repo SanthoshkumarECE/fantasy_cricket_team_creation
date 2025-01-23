@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: rgb(194, 238, 184);
+}
+img{
+    height:100px;
+    width:100px;
+}
+.ground
+{
+  background-image: url("images/pitch2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  background-color: rgb(211, 211, 211);
+  height:max-content;
+  width:max-content;
+  border-radius: 20px;
+
+}
+.nav {
+    background-color: rgba(255, 0, 0, 0.767);
+    text-align: center;
+}
+
+.nav>h1 {
+    color: white;
+    margin: 0;
+    display: inline-block;
+    margin: 20px;
+    font-size: 50px;
+    font-family: Cinzel, serif
+}
+.bowl,.batsman,.all,.wk
+{
+    height:200px;
+}
+.ground
+{
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    margin-bottom: 60px;
+}
+
+.batsman-list,.all-list,.wk-list,.bowl-list
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p
+{
+    font-weight:bold;
+}
+
+.player
+{
+    margin-right:20px;
+    margin-left:20px;
+    
+}
+.heading
+{
+    text-decoration: dotted;
+}

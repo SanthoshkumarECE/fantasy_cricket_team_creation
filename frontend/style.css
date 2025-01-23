@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: rgba(238, 238, 238, 0.603);
+    background-image: url('images/360_F_840039763_PA1RtJjX0z0m7bT1VbKgwJtB4AUFCG2h.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav
+{
+    background-color: rgba(255, 0, 0, 0.767);
+    text-align: center;
+}
+.nav > h1{
+    color:white;
+    margin:0;
+    display:inline-block;
+    margin:20px;
+    font-size: 50px;
+    font-family: Cinzel, serif
+    
+
+}
+ul{
+    list-style: none;
+    padding:0px;
+    /* border:solid 0.5px; */
+    margin:0px;
+    /* height:750px; */
+}
+.player-container
+{   height:max-content;
+    display:flex;
+    border:solid 1px;
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+.player-container > div > h1{
+    border:solid 0.5px;
+    margin:0px;padding:10px;
+}
+.player-container>div>h1
+{
+    color:white;
+    background-color: rgb(214, 67, 67);
+}
+li{
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(224, 215, 215);
+    padding:10px;
+    margin:10px;
+    display:block;
+    transition-duration: 0.1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+li:hover{
+    background-color: rgb(212, 176, 176);
+    
+}
+.create
+{
+    border:none;
+    border-radius: 5px;
+    display:block;
+    width:max-content;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    padding:20px;
+    background-color: rgb(180, 180, 180);
+    margin-bottom:30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.create >p
+{
+    border:solid 1px;
+    display: block;
+    width:max-content;
+    padding:5px;
+    border-radius: 2px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+.create > button{
+    margin-left:70px;
+    background-color: green;
+    border:none;
+    color:white;
+    border-radius:3px;
+    padding:10px;
+}
+
+.selectbutton
+{
+ border:none;
+ color:white;
+ background-color: green;
+}
+.deletebutton
+{
+border:none;
+
+    color: white;
+    background-color: red;
+}
+.selectbutton,.deletebutton
+{
+    padding:5px;
+    border-radius: 4px;
+}
+#heading
+{
+    background-color: white;
+    display:inline-block;
+    padding:20px;
+    border-radius:10px;
+}
